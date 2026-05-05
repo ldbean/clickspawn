@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind typography;
+
+@font-face {
+    font-family: "Nunito";
+    src:
+        url("/assets/fonts/Nunito-Regular.ttf") format("truetype");
+}
+
+button {
+    @apply mx-auto px-6 rounded-full bg-teal-300 p-4 text-xl uppercase font-bold shadow-lg hover:bg-green-500
+}
+.card {
+    @apply bg-gradient-to-tl from-[#7fdbda] via-[#ade498] to-[#ede682]
+}
+
+body {
+    background-color: #1d1a2a;
+    font-family: "Nunito", sans-serif;
+}
+
+p {
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-transform: uppercase;
+}
+
+.slide-left-enter-active,
+.slide-left-leave-active,
+.slide-right-enter-active,
+.slide-right-leave-active {
+    transition: all 0.2s;
+}
+.slide-left-enter-from {
+    opacity: 0;
+    transform: translate(50px, 0);
+}
+.slide-left-leave-to {
+    opacity: 0;
+    transform: translate(-50px, 0);
+}
+.slide-right-enter-from {
+    opacity: 0;
+    transform: translate(-50px, 0);
+}
+.slide-right-leave-to {
+    opacity: 0;
+    transform: translate(50px, 0);
+}

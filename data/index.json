@@ -1,0 +1,293 @@
+{
+  "categories": [
+    {
+      "name": "animal",
+      "subcategories": [
+        {
+          "name": "feline",
+          "examples": ["house cat", "lion", "tiger", "snow leopard", "cheetah", "cougar"]
+        },
+        {
+          "name": "canine",
+          "examples": ["domestic dog", "wolf", "fox", "coyote", "jackal", "dingo"]
+        },
+        {
+          "name": "primate",
+          "examples": ["human", "chimpanzee", "gorilla", "orangutan", "baboon", "lemur"]
+        },
+        {
+          "name": "equine",
+          "examples": ["horse", "zebra", "donkey", "mule", "pony"]
+        },
+        {
+          "name": "bovine",
+          "examples": ["cattle", "buffalo", "yak", "bison", "antelope"]
+        },
+        {
+          "name": "avian",
+          "examples": ["eagle", "penguin", "parrot", "sparrow", "owl", "flamingo", "hummingbird"]
+        },
+        {
+          "name": "reptile",
+          "examples": ["python", "cobra", "crocodile", "iguana", "komodo dragon", "gecko"]
+        },
+        {
+          "name": "aquatic",
+          "examples": ["great white shark", "dolphin", "sea turtle", "octopus", "jellyfish", "seahorse"]
+        },
+        {
+          "name": "arthropod",
+          "examples": ["honeybee", "tarantula", "centipede", "lobster", "grasshopper", "beetle"]
+        },
+        {
+          "name": "amphibian",
+          "examples": ["frog", "toad", "salamander", "newt", "axolotl"]
+        },
+        {
+          "name": "marsupial",
+          "examples": ["kangaroo", "koala", "wombat", "tasmanian devil", "platypus"]
+        }
+      ]
+    },
+    {
+      "name": "plants/fungi",
+      "subcategories": [
+        {
+          "name": "flowering plants",
+          "examples": ["rose", "tulip", "sunflower", "orchid", "daisy", "lotus"]
+        },
+        {
+          "name": "tree",
+          "examples": ["oak", "maple", "pine", "birch", "cedar", "willow", "elm"]
+        },
+        {
+          "name": "shrub",
+          "examples": ["azalea", "rhododendron", "holly", "boxwood", "jasmine", "lilac"]
+        },
+        {
+          "name": "grass",
+          "examples": ["wheat", "rice", "corn", "bamboo", "barley", "bluegrass"]
+        },
+        {
+          "name": "herb",
+          "examples": ["basil", "mint", "rosemary", "thyme", "sage", "oregano", "parsley"]
+        },
+        {
+          "name": "vegetable",
+          "examples": ["carrot", "tomato", "lettuce", "broccoli", "potato", "spinach", "cucumber"]
+        },
+        {
+          "name": "fruit",
+          "examples": ["apple", "banana", "orange", "strawberry", "grape", "mango", "watermelon"]
+        },
+        {
+          "name": "fungus",
+          "examples": ["button mushroom", "shiitake mushroom", "puffball", "truffle", "morel", "oyster mushroom"]
+        },
+        {
+          "name": "moss/lichen",
+          "examples": ["sphagnum moss", "club moss", "reindeer lichen", "cup lichen", "rock lichen"]
+        },
+        {
+          "name": "fern",
+          "examples": ["bracken fern", "tree fern", "maidenhair fern", "sword fern", "ostrich fern"]
+        }
+      ]
+    },
+    {
+      "name": "minerals/gemstones",
+      "subcategories": [
+        {
+          "name": "precious gems",
+          "examples": ["diamond", "ruby", "sapphire", "emerald", "alexandrite"]
+        },
+        {
+          "name": "semi-precious gems",
+          "examples": ["amethyst", "topaz", "garnet", "opal", "jade", "tourmaline"]
+        },
+        {
+          "name": "quartz",
+          "examples": ["rose quartz", "smoky quartz", "citrine", "clear quartz", "chalcedony"]
+        },
+        {
+          "name": "feldspar",
+          "examples": ["moonstone", "sunstone", "amazonite", "orthoclase", "labradorite"]
+        },
+        {
+          "name": "carbonate",
+          "examples": ["calcite", "aragonite", "malachite", "azurite", "siderite"]
+        },
+        {
+          "name": "sulfide",
+          "examples": ["pyrite", "galena", "cinnabar", "chalcopyrite", "sphalerite"]
+        },
+        {
+          "name": "oxide",
+          "examples": ["magnetite", "hematite", "corundum", "cuprite", "rutile"]
+        },
+        {
+          "name": "silicate",
+          "examples": ["olivine", "feldspar", "beryl", "mica", "tourmaline", "zircon"]
+        },
+        {
+          "name": "native element",
+          "examples": ["gold", "silver", "copper", "sulfur", "graphite", "bismuth"]
+        },
+        {
+          "name": "organic",
+          "examples": ["amber", "coral", "pearl", "jet", "ivory"]
+        }
+      ]
+    },
+    {
+      "name": "mechanical",
+      "subcategories": [
+        {
+          "name": "simple tools",
+          "examples": ["lever", "pulley", "wheel", "ramp", "screw", "wedge"]
+        },
+        {
+          "name": "motors/engines",
+          "examples": ["combustion engine", "steam engine", "electric motor", "turbine", "rotor"]
+        },
+        {
+          "name": "gears/belts",
+          "examples": ["gears", "belt drive", "chain drive", "cogs", "mechanical linkage"]
+        },
+        {
+          "name": "fasteners",
+          "examples": ["bolt", "screw", "rivet", "pin", "nut", "washer"]
+        },
+        {
+          "name": "springs",
+          "examples": ["coil spring", "leaf spring", "spiral spring", "tension spring", "compressed spring"]
+        },
+        {
+          "name": "pumps/valves",
+          "examples": ["pump", "valve", "piston"]
+        },
+        {
+          "name": "rails/tracks",
+          "examples": ["rail", "track", "roller", "slide rail", "linear bearing"]
+        }
+      ]
+    },
+    {
+      "name": "tech",
+      "subcategories": [
+        {
+          "name": "circuits/chips",
+          "examples": ["circuit board", "microchip"]
+        },
+        {
+          "name": "peripherals",
+          "examples": ["keyboard", "mouse", "headphone", "speakers", "vr headset", "gamepad/controller", "microphone", "cables"]
+        },
+        {
+          "name": "power/batteries",
+          "examples": ["battery", "solar panel", "wind turbine", "charger", "thermal energy"]
+        }
+      ]
+    },
+    {
+      "name": "fabric/textile",
+      "subcategories": [
+        {
+          "name": "natural fiber",
+          "examples": ["cotton", "linen", "silk", "wool", "hemp", "jute"]
+        },
+        {
+          "name": "synthetic fiber",
+          "examples": ["polyester", "nylon", "acrylic", "spandex", "polypropylene", "lycra"]
+        },
+        {
+          "name": "knit fabric",
+          "examples": ["jersey knit", "ribbed knit", "cable knit", "fleece", "mesh knit"]
+        },
+        {
+          "name": "specialty fabric",
+          "examples": ["denim", "corduroy", "velvet", "canvas", "leather", "suede"]
+        },
+        {
+          "name": "decorator fabric",
+          "examples": ["brocade", "damask", "tapestry", "toile", "chintz"]
+        }
+      ]
+    },
+    {
+      "name": "mood",
+      "subcategories": [
+        {
+          "name": "emotional tone",
+          "examples": ["melancholic", "euphoric", "tense", "serene", "nostalgic", "eerie", "hopeful", "lonely", "whimsical", "raw"]
+          },
+        {
+          "name": "energy",
+          "examples": ["chaotic", "still", "frenetic", "meditative", "explosive", "hushed"]
+        },
+        {
+          "name": "narrative feel",
+          "examples": ["ominous", "dreamlike", "mythic", "intimate", "epic", "uncanny", "playful"]
+        }
+      ]
+    },
+    {
+      "name": "setting",
+      "subcategories": [
+        {
+          "name": "interior",
+          "examples": ["cathedral", "abandoned warehouse", "library", "laboratory", "tavern", "throne room", "subway car", "greenhouse"]
+        },
+        {
+          "name": "urban",
+          "examples": ["rooftop", "alleyway", "night market", "construction site", "harbor", "plaza", "ruined city"]
+        },
+        {
+          "name": "wilderness",
+          "examples": ["ancient forest", "tundra", "swamp", "volcano", "coral reef", "cave", "savanna", "desert"]
+        },
+        {
+          "name": "fantastical",
+          "examples": ["floating islands", "crystalline caves", "cloud city", "underground kingdom", "astral plane", "overgrown ruins"]
+        },
+        {
+          "name": "cosmic",
+          "examples": ["nebula", "gas giant surface", "asteroid field", "alien shore", "void", "binary sunset"]
+        }
+      ]
+    },
+    {
+      "name": "accessory",
+      "subcategories": [
+        {
+          "name": "weapons",
+          "examples": ["bow", "staff", "sword", "greataxe", "greatsword", "wand", "phaser", "rifle"]
+        },
+        {
+          "name": "pets",
+          "examples": ["cat", "dog", "chameleon", "parrot", "hamster", "ferret"]
+        },
+        {
+          "name": "food",
+          "examples": ["pasta", "pizza", "sushi", "soup", "salad", "sandwich", "burger", "bagel"]
+        },
+        {
+          "name": "sweets",
+          "examples": ["cinnamon roll", "ice cream", "candy bar", "cake", "biscuit", "pie", "donut", "brownie"]
+        },
+        {
+          "name": "devices",
+          "examples": ["desktop pc", "cyberdeck", "laptop", "ipad", "drawing tablet", "smartphone", "smartglasses", "typewriter"]
+        },
+        {
+          "name": "instrument",
+          "examples": ["guitar", "keyboard", "flute", "violin", "ocarina", "clarinet", "drums", "bass"]
+        },
+        {
+          "name": "misc",
+          "examples": ["backpack", "glasses", "water bottle", "mp3 player", "book", "sketchbook", "feather"]
+        }
+      ]
+    }
+  ]
+}
