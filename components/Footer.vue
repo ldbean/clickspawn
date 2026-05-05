@@ -5,7 +5,7 @@
                 <h3 class="prose">LINKS</h3>
                 <ul class="grow">
                     <li class="hover:underline">
-                        <NuxtLink to="https://github.com">
+                        <NuxtLink to="https://github.com/ldbean/clickspawn">
                             Source Code
                         </NuxtLink>
                     </li>
