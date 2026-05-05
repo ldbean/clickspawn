@@ -1,8 +1,8 @@
 <script setup>
 const links = [
-    { label: "Creatures", value: '/creature' },
-    { label: "Characters", value: '/character' },
-    { label: "Objects", value: '/object' },
+    { label: "Creature", value: '/creature' },
+    { label: "Character", value: '/character' },
+    { label: "Object", value: '/object' },
     { label: "Scene", value: '/scene' },
 ]
 
