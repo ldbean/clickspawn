@@ -39,7 +39,7 @@ h1 {
 }
 
 li {
-    @apply hover:shadow-lg hover:text-white;
+    @apply hover:text-white;
     font-family: "Montserrat", sans-serif;
 
 }
