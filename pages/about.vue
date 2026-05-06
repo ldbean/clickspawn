@@ -1,14 +1,14 @@
 <template>
     <Card>
-        <Container class="prose">
+        <Container>
             <h1>About ClickSpawn</h1>
-            <div class="bg-white/30 p-5 py-2 overflow-y-scroll min-w-[380px]">
+            <div class="bg-white/30 p-5 py-2 overflow-y-scroll min-w-[380px] prose">
             <p>Ever have the dire need to create something... only to be stuck without an
             idea? When I'm blocked trying to decide what to make, sometimes I like to
             leave it to chance.</p>
             <p>In the spirit of progressing my skill tree, I decided to improve my webdev
             branch by creating this lil generator site <span class = "italic">because the
-            world could use yet another idea generator.</span> And a bit more whimsy too.
+            world could use yet another idea generator.</span> A bit more whimsy, at the very least.
             I used Nuxt and Tailwind to build this, in case you were curious.</p>
             <p>The spawners each spit out a bunch of words within a handlful of labels
             that descibe a general form the words can be applied to.

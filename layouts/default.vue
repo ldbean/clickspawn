@@ -1,7 +1,18 @@
 <template>
-    <div class="flex flex-col justify-between min-h-[100vh] items-center">
+    <div class="flex flex-col justify-between min-h-[110vh] items-center">
         <Navbar></Navbar>
         <slot></slot>
         <Footer></Footer>
     </div>
 </template>
+
+<script setup>
+useHead({
+  title: 'ClickSpawn',
+  meta: [
+    { name: 'description', content: 'A random words generator to help the next idea click' },
+    { property: 'og:title', content: 'ClickSpawn | Creative Generator' },
+    { property: 'og:description', content: 'A random words generator to help the next idea click' },
+  ],
+})
+</script>

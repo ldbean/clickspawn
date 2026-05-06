@@ -25,11 +25,12 @@ onMounted(() => {
     <Card>
         <Container>
             <div class="flex flex-col gap-12 items-center">
-                <Container class="prose">
+                <Container class="mb-5 text-center">
                     <h1>Welcome to ClickSpawn!</h1>
-                </Container>
-                <Container class="gap-5">
+                    <strong>A random words generator to help the next idea click.</strong>
                     <p>Choose one of the spawners below to get started.</p>
+                </Container>
+                <Container class="gap-8">
                     <NuxtLink v-for="link in links" :to="link.value" class="w-full">
                         <button  class="w-full">
                             {{ link.label }}

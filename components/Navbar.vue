@@ -8,12 +8,12 @@
             </a>
         </div>
         <nav class="flex w-auto">
-          <ul class="flex flex-row gap-3 md:text-lg text-xs text-green-500 my-auto mr-5 uppercase">
+          <ul class="flex flex-row gap-3 md:text-[14px] text-xs text-green-500 my-auto mr-5 uppercase">
             <li><NuxtLink to="/creature">Creature</NuxtLink></li>
             <li><NuxtLink to="/character">Character</NuxtLink></li>
             <li><NuxtLink to="/object">Object</NuxtLink></li>
             <li><NuxtLink to="/scene">Scene</NuxtLink></li>
-            <li><NuxtLink to="/about">About</NuxtLink></li>
+            <li class="text-gray-400"><NuxtLink to="/about">About</NuxtLink></li>
           </ul>
         </nav>
     </header>

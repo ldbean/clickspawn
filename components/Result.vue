@@ -8,7 +8,7 @@ const props = defineProps({
 </script>
 
 <template>
-    <div class="rounded-full bg-gray-200 text-black p-3 px-5 w-[380px] md:w-[500px] md:h-[60px] flex shadow-md">
+    <div class="rounded-full bg-slate-200 text-black p-3 px-5 w-[380px] md:w-[500px] md:h-[60px] flex shadow-md">
         <div class="spawn-card text-right grow content-center justify-end">
             <span v-if="category" class="category">{{ category }}</span>
             <span v-if="category" class="separator"> > </span>

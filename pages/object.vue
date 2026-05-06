@@ -41,9 +41,9 @@ onMounted(() => {
 
 <template>
     <Card>
-        <Container v-if="mounted" class="prose">
-            <h1>Spawn an Object</h1>
-            <Container class="gap-2">
+        <Container v-if="mounted">
+            <h1>Spawn an <span class="text-teal-700">Object</span></h1>
+            <Container class="gap-2 prose">
                 <template v-for="(cat, index) in categories" :key="`${componentKey}-${index}`">
                     <Spawner
                         :category="cat.value"

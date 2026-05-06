@@ -8,12 +8,17 @@
     src:
         url("/assets/fonts/Nunito-Regular.ttf") format("truetype");
 }
+@font-face {
+    font-family: "Montserrat";
+    src:
+    url("/assets/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
 
 button {
-    @apply mx-auto px-6 rounded-full bg-teal-400 p-4 text-xl uppercase font-bold shadow-lg hover:bg-green-500
+    @apply mx-auto px-6 rounded-full p-4 text-xl uppercase font-bold shadow-lg hover:shadow-md text-slate-800 bg-gradient-to-t from-teal-500 hover:from-green-500 to-teal-400 hover:to-green-400
 }
 .card {
-    @apply bg-gradient-to-tl from-[#7fdbda] via-[#ade498] to-[#ede682]
+    @apply bg-gradient-to-t from-slate-700 via-40% via-green-300 via-55% to-teal-300
 }
 
 body {
@@ -27,6 +32,16 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
     text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+}
+h1 {
+    @apply md:text-4xl text-2xl mb-12 font-bold text-slate-800
+}
+
+li {
+    @apply hover:shadow-lg hover:text-white;
+    font-family: "Montserrat", sans-serif;
+
 }
 
 .slide-left-enter-active,
