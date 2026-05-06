@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-between md:gap-10 gap-0 items-center">
+    <div class="flex flex-col justify-between md:gap-10 min-h-[110vh] items-center">
         <Navbar></Navbar>
         <slot></slot>
         <Footer></Footer>
