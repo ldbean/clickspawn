@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col justify-between md:gap-10 min-h-[110vh] items-center">
+    <div class="flex flex-col justify-between md:gap-10 min-h-[110vh] overflow-x-hidden items-center">
         <Navbar></Navbar>
         <slot></slot>
         <Footer></Footer>
