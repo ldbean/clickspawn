@@ -30,13 +30,17 @@ onMounted(() => {
                 </Container>
                 <Container class="gap-5">
                     <p>Choose one of the spawners below to get started.</p>
-                    <button v-for="link in links" class="w-full">
-                        <NuxtLink :to="link.value">{{ link.label }}</NuxtLink>
-                    </button>
-                    <Transition name="fade-in">
-                        <button v-if="mounted" class="w-full">
-                            <NuxtLink :to="randomSpawner.value">Surprise Me!</NuxtLink>
+                    <NuxtLink v-for="link in links" :to="link.value" class="w-full">
+                        <button  class="w-full">
+                            {{ link.label }}
                         </button>
+                    </NuxtLink>
+                    <Transition name="fade-in">
+                        <NuxtLink :to="randomSpawner.value" class="w-full">
+                            <button v-if="mounted" class="w-full">
+                                Surprise Me!
+                            </button>
+                        </NuxtLink>
                     </Transition>
                 </Container>
             </div>
