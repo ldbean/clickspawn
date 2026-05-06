@@ -46,14 +46,22 @@
         {
           "name": "marsupial",
           "examples": ["kangaroo", "koala", "wombat", "tasmanian devil", "platypus"]
+        },
+        {
+          "name": "prehistoric",
+          "examples": ["spinosaurus", "t-rex", "mammoth", "sabertooth tiger", "ankylosaurus", "wooly rhino", "mosasaurus", "megalodon", "velociraptor", "irish elk"]
+        },
+        {
+          "name": "mythological",
+          "examples": ["unicorn", "dragon", "wyvern", "gryphon", "chimera", "minotaur", "phoenix", "basilisk", "hydra", "kraken", "pegasus", "jackalope"]
         }
       ]
     },
     {
-      "name": "plants/fungi",
+      "name": "plant/fungi",
       "subcategories": [
         {
-          "name": "flowering plants",
+          "name": "flower",
           "examples": ["rose", "tulip", "sunflower", "orchid", "daisy", "lotus"]
         },
         {
@@ -62,7 +70,7 @@
         },
         {
           "name": "shrub",
-          "examples": ["azalea", "rhododendron", "holly", "boxwood", "jasmine", "lilac"]
+          "examples": ["azalea", "rhododendron", "holly", "jasmine", "lilac"]
         },
         {
           "name": "grass",
@@ -95,14 +103,14 @@
       ]
     },
     {
-      "name": "minerals/gemstones",
+      "name": "mineral/gemstone",
       "subcategories": [
         {
-          "name": "precious gems",
+          "name": "precious gem",
           "examples": ["diamond", "ruby", "sapphire", "emerald", "alexandrite"]
         },
         {
-          "name": "semi-precious gems",
+          "name": "semi-precious gem",
           "examples": ["amethyst", "topaz", "garnet", "opal", "jade", "tourmaline"]
         },
         {
@@ -143,16 +151,16 @@
       "name": "mechanical",
       "subcategories": [
         {
-          "name": "simple tools",
+          "name": "simple tool",
           "examples": ["lever", "pulley", "wheel", "ramp", "screw", "wedge"]
         },
         {
-          "name": "motors/engines",
-          "examples": ["combustion engine", "steam engine", "electric motor", "turbine", "rotor"]
+          "name": "motor/engine",
+          "examples": ["combustion engine", "steam engine", "electric motor"]
         },
         {
-          "name": "gears/belts",
-          "examples": ["gears", "belt drive", "chain drive", "cogs", "mechanical linkage"]
+          "name": "parts",
+          "examples": ["gears", "belt drive", "chain drive", "cogs", "ball bearing"]
         },
         {
           "name": "fasteners",
@@ -168,7 +176,7 @@
         },
         {
           "name": "rails/tracks",
-          "examples": ["rail", "track", "roller", "slide rail", "linear bearing"]
+          "examples": ["rail", "track", "roller", "slide rail" ]
         }
       ]
     },
@@ -198,7 +206,7 @@
         },
         {
           "name": "synthetic fiber",
-          "examples": ["polyester", "nylon", "acrylic", "spandex", "polypropylene", "lycra"]
+          "examples": ["polyester", "nylon", "acrylic", "spandex", "lycra"]
         },
         {
           "name": "knit fabric",
@@ -210,7 +218,7 @@
         },
         {
           "name": "decorator fabric",
-          "examples": ["brocade", "damask", "tapestry", "toile", "chintz"]
+          "examples": ["brocade", "damask", "tapestry", "toile"]
         }
       ]
     },
@@ -218,12 +226,12 @@
       "name": "mood",
       "subcategories": [
         {
-          "name": "emotional tone",
+          "name": "emotional",
           "examples": ["melancholic", "euphoric", "tense", "serene", "nostalgic", "eerie", "hopeful", "lonely", "whimsical", "raw"]
           },
         {
           "name": "energy",
-          "examples": ["chaotic", "still", "frenetic", "meditative", "explosive", "hushed"]
+          "examples": ["chaotic", "still", "frenzied", "meditative", "explosive", "hushed"]
         },
         {
           "name": "narrative feel",
@@ -236,7 +244,7 @@
       "subcategories": [
         {
           "name": "interior",
-          "examples": ["cathedral", "abandoned warehouse", "library", "laboratory", "tavern", "throne room", "subway car", "greenhouse"]
+          "examples": ["cathedral", "abandoned warehouse", "library", "laboratory", "tavern", "throne room", "subway car", "greenhouse", "museum", "classroom", "office"]
         },
         {
           "name": "urban",
@@ -244,11 +252,15 @@
         },
         {
           "name": "wilderness",
-          "examples": ["ancient forest", "tundra", "swamp", "volcano", "coral reef", "cave", "savanna", "desert"]
+          "examples": ["ancient forest", "jungle", "tundra", "swamp", "volcano", "coral reef", "cave", "savanna", "desert", "prarie"]
+        },
+        {
+          "name": "residential",
+          "examples": ["suburbia", "inner city", "countryside", "mountain village"]
         },
         {
           "name": "fantastical",
-          "examples": ["floating islands", "crystalline caves", "cloud city", "underground kingdom", "astral plane", "overgrown ruins"]
+          "examples": ["floating islands", "crystalline caves", "cloud city", "underground kingdom", "astral plane", "overgrown ruins", "castle town"]
         },
         {
           "name": "cosmic",
